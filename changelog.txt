@@ -1,0 +1,5 @@
+1.0.0.1
+-------
+* Moved to Github
+* Added support for credentials
+* Upgraded project to .NET 4.0 
