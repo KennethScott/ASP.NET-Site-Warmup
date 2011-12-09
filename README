@@ -1,0 +1,27 @@
+ASP.NET Site Warmup
+-------------------------------------
+
+Simple app that reads an xml file of sites to perform HTTP GETs on, to force the JIT compilation of ASP.NET sites to 
+remove the first-hit delay often associated with ASP.NET web sites.
+
+Credentials can be specified in the xml but be warned it is plain text.
+
+*You may also run the exe with any normal help trigger (/h or /? or -? or etc..) for more information.
+
+  Usage:
+    ASPNET_SiteWarmup.exe <location>\<filename>
+      Example:  ASPNET_SiteWarmup.exe c:\sites.xml
+      Note:  If no credentials are necessary, simply remove the Credentials node
+
+
+  XML File Layout:
+  <?xml version="1.0" encoding="UTF-8"?>
+    <Sites>
+      <Site>
+        <Comment>my comments about this site</Comment>
+        <URL>http://server/site</URL>
+        <Credentials Domain="xxx" User="yyy" Pass="123" />
+      </Site>
+      <Site>......</Site>
+    </Sites>
+
