@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <Sites>
+    <Site>
+      <Comments>Google</Comments>
+      <URL>http://www.google.com</URL>
+      <Credentials Domain="test" User="user" Pass="123"/>
+    </Site>
+  </Sites>

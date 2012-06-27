@@ -62,6 +62,7 @@
   <ItemGroup>
     <Content Include="sites.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>

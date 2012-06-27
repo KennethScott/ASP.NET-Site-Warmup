@@ -1,0 +1,7 @@
+C:\Users\kenneth\Documents\Visual Studio 2010\Projects\ASP.NET Site Warmup\ASPNET_SiteWarmup\bin\Debug\ASPNET_SiteWarmup.exe.config
+C:\Users\kenneth\Documents\Visual Studio 2010\Projects\ASP.NET Site Warmup\ASPNET_SiteWarmup\bin\Debug\sites.xml
+C:\Users\kenneth\Documents\Visual Studio 2010\Projects\ASP.NET Site Warmup\ASPNET_SiteWarmup\bin\Debug\ASPNET_SiteWarmup.exe
+C:\Users\kenneth\Documents\Visual Studio 2010\Projects\ASP.NET Site Warmup\ASPNET_SiteWarmup\bin\Debug\ASPNET_SiteWarmup.pdb
+C:\Users\kenneth\Documents\Visual Studio 2010\Projects\ASP.NET Site Warmup\ASPNET_SiteWarmup\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kenneth\Documents\Visual Studio 2010\Projects\ASP.NET Site Warmup\ASPNET_SiteWarmup\obj\Debug\ASPNET_SiteWarmup.exe
+C:\Users\kenneth\Documents\Visual Studio 2010\Projects\ASP.NET Site Warmup\ASPNET_SiteWarmup\obj\Debug\ASPNET_SiteWarmup.pdb

@@ -39,10 +39,24 @@ namespace ASPNET_SiteWarmup
                         }
                         // Chrome's User Agent
                         request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.92 Safari/535.2";
-                        WebResponse response = request.GetResponse();
-                        response.Close();
-                        Console.WriteLine(String.Format("{0} : Successful", url.SelectSingleNode("URL").InnerText));
+                        
+                        WebResponse response = null;
+                        try
+                        {
+                            response = request.GetResponse();
+                            Console.WriteLine(String.Format("{0} : Successful", url.SelectSingleNode("URL").InnerText));
+                        }
+                        catch (Exception hex)
+                        {
+                            Console.WriteLine(String.Format("{0} : Error Occurred : {1}", url.SelectSingleNode("URL").InnerText, hex.GetBaseException().Message));
+                        }
+                        finally
+                        {          
+                            if (response != null)
+                                response.Close();
+                        }
                     }
+                    Console.WriteLine("...The End...");
                 }
                 else
                 {

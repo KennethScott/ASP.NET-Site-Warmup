@@ -1,3 +1,7 @@
+1.0.0.2
+-------
+* App now logs error and continues to next site if exception encountered.
+
 1.0.0.1
 -------
 * Moved to Github
